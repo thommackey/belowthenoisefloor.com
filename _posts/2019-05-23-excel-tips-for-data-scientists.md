@@ -1,5 +1,5 @@
 ---
-title: "How To Use The 7 Excel Features Every Data Scientist Should Know"
+title: "Excel tips for data scientists - especially if they hate Excel"
 classes: wide
 toc: true
 excerpt: "Excel is drastically undervalued in the data science community. Let me show you some of Excel's features that make it a powerful data science tool."
@@ -23,14 +23,14 @@ AKA point-and-click GROUP BY. My vote for the best feature of Excel. When I'm st
 
 Their real power is answering questions like “what’s the average widget price by category by store by region?” or “how many students of each country took which classes and what were there average scores by class?”. You can get pretty wild with pivot tables, especially once you start cross-referencing data sheets/tables and so on, but I won’t go into huge detail — I'm sure there are whole online courses just about pivot tables. Here's a quick sample:
 
-![Pivot table example](/assets/images/pivot-table.gif)
+{% include image.html name="pivot-table.gif" caption="Using a pivot table to find average lengths by category & subcategory." %}
 
 (As an aside, I’d bet money that  90% of day-to-day real-world “data science” could be done with Excel pivot tables. Scores of data analytics consulting groups would be put out of a job if every excel user in a bank or insurance company learned to use pivot tables properly.)
 
 ### 2: Sort and Filter
 My second-favourite feature. Have a large dataset that you want to narrow down? This feature makes it very easy to, well, sort and filter! The filters are suprisingly powerful, supporting things like "starts with" and boolean combinations of filter criteria. It's just a simple and effective way to e.g. remove all null values, narrow down to a broad category, sort by some combination of values, copy-paste to a new worksheet, and export.
 
-![Sort and filter example](/assets/images/sort-and-filter.gif)
+{% include image.html name="sort-and-filter.gif" caption="Using sort and filter to extract a clean, sorted subset of data." %}
 
 ### 3: Text to columns
 Somewhat hidden, this is really great for wrangling quasi-structured info into calculable, plottable structure. Particularly useful for correctly splitting internally-delimited cells[^1], it's also good for creative manipulation of clipboard data. 
@@ -41,12 +41,12 @@ If I have a gnarly quasi-structured string anywhere - in an email, word doc, or 
 
 [^2]: Particularly when used with "paste special -> transpose".
 
-![Text to columns example](/assets/images/text-to-columns.gif)
+{% include image.html name="text-to-columns.gif" caption="Using text to columns to break out a field with internal delimiters." %}
 
 ### 4: Pasting HTML tables
 It doesn’t seem to tout this feature, but Excel has surprisingly robust “magic” support for understanding copied HTML tables. Often times it’s the fastest way to grab some data on a website and mess with it. Just select the table, ctrl/cmd+c, open a new worksheet in Excel, ctrl/cmd+v. Kazam! Magic! Didn’t work? Well, you were going to have to use BeautifulSoup anyway, at least this was worth a try. ;)
 
-![HTML table copy paste](/assets/images/html-table-copy-paste.gif)
+{% include image.html name="html-table-copy-paste.gif" caption="Extracting an HTML table from a webpage with copy-paste." %}
 
 ### 5: Calculations
 Look, of course you & I both know that’s why spreadsheets were invented, but it’s still worth reminding you about! Excel is a bloody excellent calculator. Anything from converting times to milliseconds to performing multivariate regressions (and even a kind of [gradient descent](https://support.office.com/en-ie/article/define-and-solve-a-problem-by-using-solver-5d1a388f-079d-43ac-a7eb-f63e45925040)!) is possible in Excel. Slowly I've stopped launching the python repl to do random calculations and do them in Excel instead; particularly when you want to fiddle with variables & see the outcomes quickly.
@@ -56,12 +56,12 @@ Random plug - I'm also a big fan of [Soulver](https://www.acqualia.com/soulver/)
 ### 6: Paste Special
 You probably already know this one, but it's so useful I have to mention it. Once you’ve done all your filters, calculations and summaries, sometimes you want to copy & paste things to get values (rather than formulas), and to transpose.
 
-![Paste special example](/assets/images/paste-special.gif)
+{% include image.html name="paste-special.gif" caption="Using paste special to convert formulae into values, and transposing a matrix." %}
 
 ### 7: Conditional formatting
 Only one button, not that hidden, but worth mentioning. It’s a nice way of getting a feel for your data while you're exploring it. 
 
-![Conditional formatting example](/assets/images/conditional-formatting.gif)
+{% include image.html name="conditional-formatting.gif" caption="Conditional formatting helps you get an intuition for your data as you're exploring it." %}
 
 ### Bonus: Don't forget about charts!
 For as much as we love matplotlib, ggplot2, Shiny web apps, Tableau dashboards and the like - sometimes you just want to throw together a bar chart. Excel's charting library is not the best, but I find it's often the fastest way to get a simple bare-bones chart up and running. Especially when used in conjunction with all of the above tricks. You can find yourself with an awful, quasi-structured table on a web page, and manipulate, pivot and calculate your way into a nice stacked bar chart in less time than it would take you to parse the data in a Jupyter notebook.
