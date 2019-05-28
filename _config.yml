@@ -28,6 +28,12 @@ twitter:
   username: "thom_mackey"
 # og_image: /assets/images/
 
+# Commenting
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "belowthenoisefloor"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -80,6 +86,7 @@ author:
       icon: "fas fa-fw fa-comments"
       url: "sms:thom.mackey@gmail.com"
 
+# Something to do with making me visible online?!
 social:
   type: Person # Person or Organization (defaults to Person)
   name: Thom Mackey # If the user or organization name differs from the site's name
@@ -106,7 +113,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
   # _pages
