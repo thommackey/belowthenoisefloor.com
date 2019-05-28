@@ -29,10 +29,10 @@ twitter:
 # og_image: /assets/images/
 
 # Commenting
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "belowthenoisefloor"
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: "belowthenoisefloor"
 
 # Build settings
 markdown: kramdown
@@ -113,7 +113,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
