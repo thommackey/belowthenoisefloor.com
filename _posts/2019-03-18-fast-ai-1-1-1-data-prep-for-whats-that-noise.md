@@ -1,7 +1,7 @@
 ---
 title: "fast.ai 1.1.1: Data prep for “What’s that noise”."
 classes: wide
-excerpt: "A first foray into sound classification using the fast.ai library."
+excerpt: "Details about the witch's brew of excel formulae, awk commands and shell scripts for some hacky data prep."
 header:
   og_image: assets/posts/2019-03-18-fast-ai-1-1-1-data-prep-for-whats-that-noise/og-image.png
 ---
