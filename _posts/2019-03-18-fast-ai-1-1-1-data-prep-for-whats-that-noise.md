@@ -1,11 +1,11 @@
 ---
-title: "fast.ai 1.1.1: Data prep for “What’s that noise”."
+title: "fast.ai 1.1.1: Data prep for “What’s that noise”"
 classes: wide
 excerpt: "Details about the witch's brew of excel formulae, awk commands and shell scripts for some hacky data prep."
 header:
   og_image: assets/posts/2019-03-18-fast-ai-1-1-1-data-prep-for-whats-that-noise/og-image.png
 ---
-**BLUF:** This is the detailed tale of how I retrieved and prepared the data for my week 1 project with fast.ai. [Here's the main post]({{ site.baseurl }}{% post_url 2019-03-18-fast-ai-1-1-whats-that-noise %}) where I talk about the context and results of this “work”.
+**BLUF:** Embarassing gory details of how I retrieved and prepared the data for my week 1 project with fast.ai. [Here's the main post]({{ site.baseurl }}{% post_url 2019-03-18-fast-ai-1-1-whats-that-noise %}) where I talk about the context and results of this “work”.
 
 Overall, the dataset is pretty well structured. It consists of WAV files with some metadata, including a category and description for each sound. Sounds good — all I have to do is download all the sounds, sort them according to their assigned category, and convert the WAVs to a spectrograph. Then I can just follow the provided week 1 homework notebook, swapping out the input data for my image data.
 
