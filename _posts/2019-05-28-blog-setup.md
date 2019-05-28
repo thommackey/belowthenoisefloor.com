@@ -11,9 +11,9 @@ I like blogging. I find writing is important to clarify your own thoughts. Also,
 [^1]: Ironic given I haven't set up comments yet. Just tweet at me in the meantime.
 
 ## Method: What's the best way to run a blog in 2019?
-For better or worse, I still believe "put some HTML in a folder" is the best way for the internet to work, just as St. Berners-Lee intended. Make pages static, make URLs canonical, and use plenty of links. I'm happy with HTML5. CSS I will accept. JavaScript is for the weak. 
+For better or worse, I still believe "put some HTML in a folder" is the best way for the internet to work, just as St. Berners-Lee intended. Make pages static, make URLs canonical, and use plenty of links. I'm happy with HTML5. CSS I will accept. JavaScript is for the weak. Come at me.
 
-I'm also curmodgeonly enough to want to explicitly and unambiguously own my content. I don't want to let Medium put it behind a paywall. I also want it to be as simple as possible, technologically resilient, and use open standards. I don't want to rely on Squarespace staying up[^2]. I don't think I need CDN acceleration or AMP support - it's a personal blog, not a webapp. Just put some HTML in a folder and serve it.
+I'm also curmodgeonly enough to want to explicitly and unambiguously own my content. I don't want to let anyone put it behind a paywall, or have someone else's algorithm decide to disappear it. I also want it to be as simple as possible, technologically resilient, and use open standards. I don't want to rely on Squarespace staying up[^2]. I don't think I need CDN acceleration or AMP support - it's a personal blog, not a webapp. Just put some HTML in a folder and serve it.
 
 [^2]: God knows they'll go bankrupt from their podcast advertising commitments.
 
