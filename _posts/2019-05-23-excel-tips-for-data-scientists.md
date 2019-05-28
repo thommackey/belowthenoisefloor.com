@@ -1,8 +1,10 @@
 ---
 title: "Excel tips for data scientists - especially if they hate Excel"
 classes: wide
-toc: true
 excerpt: "Excel is drastically undervalued in the data science community. Let me show you some of Excel's features that make it a powerful data science tool."
+header:
+  overlay_image: ""
+  og_image: assets/posts/2019-05-23-excel-tips-for-data-scientists/og-image.png
 ---
 
 **BLUF:** Excel is a legit, powerful data science tool. Here's a quick howto on some of the specific features that make it so.

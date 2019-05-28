@@ -23,6 +23,11 @@ github_username: thommackey
 minimal_mistakes_skin: dirt
 search: true
 
+# Social sharing settings
+twitter:
+  username: "thom_mackey"
+# og_image: /assets/images/
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
