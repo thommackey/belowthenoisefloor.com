@@ -39,7 +39,9 @@
   (info, $info-color),
   (facebook, $facebook-color),
   (twitter, $twitter-color),
-  (linkedin, $linkedin-color);
+  (linkedin, $linkedin-color),
+  (reddit, $reddit-color),
+  (hacker-news, $hacker-news-color);
 
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {
