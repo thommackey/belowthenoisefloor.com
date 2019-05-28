@@ -3,7 +3,6 @@ title: "Excel tips for data scientists - especially if they hate Excel"
 classes: wide
 excerpt: "Excel is drastically undervalued in the data science community. Let me show you some of Excel's features that make it a powerful data science tool."
 header:
-  overlay_image: ""
   og_image: assets/posts/2019-05-23-excel-tips-for-data-scientists/og-image.png
 ---
 
