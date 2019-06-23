@@ -70,9 +70,12 @@ plugins:
 author:
   name     : "Thom M"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "Keeping the knives sharp. Data strategy advisory & training, machine learning research & development."
+  bio      : "Data strategy advisory & training, machine learning research & development. Blogging to keep the knives sharp."
   location : "Melbourne, Australia"
   links:
+    - label: "RSS"
+      icon: "fas fa-fw fa-rss-square"
+      url: "https://belowthenoisefloor.com/feed.xml"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/thom_mackey"
